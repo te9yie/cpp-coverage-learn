@@ -51,3 +51,4 @@ jobs:
       with:
         working-directory: ${{github.workspace}}/build
         files: lcov.info
+        gcov_ignore: tests
